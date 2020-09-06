@@ -1,0 +1,48 @@
+.notification-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.notificationcontainer{
+    background-color: white;
+    border-radius: 4px;
+    padding:20px;
+}
+h2{
+    font-size: 1rem;
+}
+.message-modal{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 10px 50px;
+}
+.border-none{
+    border: none;
+}
+.message-group{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.message-group label{
+    flex: 2;
+    font-weight: bold;
+    color:#808080a6;
+}
+
+.message-group div{
+    flex:8;
+}
+.notification-header h2{
+    margin-top: 8px
+}
+thead{
+    background-color: #dae0e5b0;
+    
+}
+ckeditor{
+    min-width: 100%;
+}
+.red{
+    color:red
+}
